@@ -1,0 +1,52 @@
+nav {
+  background-color: #c70d0d;
+  color: white;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.av-links li {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.nav-links li a:hover {
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.dropdown {
+  display: none !important;
+}
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .dropdown {
+    display: block !important;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}

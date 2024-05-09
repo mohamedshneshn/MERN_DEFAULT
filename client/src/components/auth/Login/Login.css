@@ -1,0 +1,42 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login__container {
+  width: 40%;
+  height: 50%;
+}
+
+@media (max-width: 768px) {
+  .login__container {
+    width: 80%;
+  }
+}
+
+.login__form {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+.login__actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__actions button {
+  margin: 10px 0;
+}
+.register-link {
+  margin-top: 10px;
+  color: red;
+}
+.register-link:hover {
+  color: lightcoral;
+}
